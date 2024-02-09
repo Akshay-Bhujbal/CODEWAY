@@ -1,2 +1,2 @@
 # CODEWAY
-Here I am uploading Codeway internship task completed by python programming.
+Here I am uploading the Codeway internship task completed using Python programming. 
