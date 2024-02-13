@@ -1,7 +1,8 @@
-import tkinter as tk
-import string
 import random
-from tkinter import messagebox 
+import string
+import tkinter as tk
+from tkinter import messagebox
+
 
 def password_generator():
     length_str = length_entry.get()
