@@ -9,10 +9,10 @@ def multiply(x, y):
     return x * y
 
 def devide(x, y):
-    if y == 0:
-        return("Error. Division by zero is not allowed")
-    else:
+    try:
         return x / y
+    except ZeroDivisionError:
+        return("Error. Division by zero is not allowed")
 
 print("Simple Calculator")
 print("1. Addition")
