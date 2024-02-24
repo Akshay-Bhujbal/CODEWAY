@@ -21,7 +21,7 @@ def display_weather(data):
         print(f"Temperature: {temperature}°C")
         print(f"Humidity: {humidity}%")
         print(f"Wind_speed: {wind_speed} m/s")
-        print(f"Descripttion: {description.capitalize()}")
+        print(f"Description: {description.capitalize()}")
 
 def main():
     api_key = "5ed7ff7c61fa2596e0cc5c28f372c3f4"
